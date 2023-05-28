@@ -10,8 +10,8 @@ import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.com
 const routes: Routes = [
   { path: "", component: HomePageComponent },
   { path: "products", component: ProductsListComponent },
-  { path: "products/:id", component: ProductDetailPageComponent },
   { path: "products/add", component: ProductAddFormComponent },
+  { path: "products/:id", component: ProductDetailPageComponent },
   { path: "products/:id/update", component: ProductUpdateFormComponent },
   { path: "**", component: NotFoundPageComponent }
 ];
